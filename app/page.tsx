@@ -85,21 +85,21 @@ export default function Home() {
                 description="Mairie de Saint-Laurent-la-Vernède"
                 time="15h30 - 16h00"
                 location="1 Pl. de la Mairie, 30330 Saint-Laurent-la-Vernède"
-                agendaLink="https://calendar.google.com/calendar/r/eventedit?text=Mariage+Mairie+Isolde+Baptiste&dates=20250531T150000/20250531T160000&details=Pour se garer, le plus simple reste de se mettre à la place des platanes&location=1+Pl.+de+la+Mairie,+30330+Saint-Laurent-la-Vernède"
+                agendaLink="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NzR2dGxmdGdnaGk2amcyOGZzdjA1dXF1bG4gYmZhbWNob25AbQ&tmsrc=bfamchon%40gmail.com"
               />
               <AgendaStep
                 title="Mariage religieux"
                 description="Cathédrale Saint-Théodorit d'Uzès"
                 time="17h00 - 18h00"
                 location="3 Pl. de l'Évêché, 30700 Uzès"
-                agendaLink="https://calendar.google.com/calendar/r/eventedit?text=Mariage+Cathédrale+Isolde+Baptiste&dates=20250531T170000/20250531T180000&details=Pour se garer, un grand parking devrait pouvoir vous accueillir à côté de la cathédrale&location=3+Pl.+de+l'Évêché,+30700+Uzès"
+                agendaLink="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MnUybDR1ZGZobzc3N2YxaGpxamJhZG9rdXMgYmZhbWNob25AbQ&tmsrc=bfamchon%40gmail.com"
               />
               <AgendaStep
                 title="Vin d'honneur & soirée"
                 description="Auberge Gardoise"
                 time="18h30 - 05h00"
                 location="Auberge Gardoise La Coulorgue Lussan, 30580 Vallérargues"
-                agendaLink="https://calendar.google.com/calendar/r/eventedit?text=Auberge+Gardoise+Isolde+Baptiste&dates=20250531T183000/20250601T050000&location=Auberge+Gardoise+La+Coulorgue+Lussan,+30580+Vallérargues"
+                agendaLink="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3JkZTM2Nm1tZmlxdGc0MXF1MnIxOWJwZTQgYmZhbWNob25AbQ&tmsrc=bfamchon%40gmail.com"
               />
             </div>
           </SectionOneColumn>

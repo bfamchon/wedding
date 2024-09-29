@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 export default function Photos() {
   return (
-    <main className="container m-auto flex flex-col gap-20 items-center sm:items-start space-y-20 py-20">
+    <main className="container m-auto flex flex-col gap-20 items-center sm:items-start space-y-20 p-8 sm:p-20">
       <SectionTwoColumns
         left={
           <SectionBlocText
