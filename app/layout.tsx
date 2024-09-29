@@ -1,4 +1,6 @@
 import { montserrat } from '@/app/fonts';
+import { Footer } from '@/src/components/Footer';
+import { Header } from '@/src/components/Header';
 import { Toaster } from '@/src/components/ui/toaster';
 import type { Metadata } from 'next';
 import './globals.css';
@@ -17,7 +19,9 @@ export default function RootLayout({
     <html lang="fr">
       <body className={`${montserrat.className} antialiased`}>
         <Toaster />
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

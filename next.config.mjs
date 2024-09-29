@@ -6,6 +6,9 @@ const nextConfig = {
         hostname: 'via.placeholder.com'
       }
     ]
+  },
+  experimental: {
+    ppr: 'incremental'
   }
 };
 

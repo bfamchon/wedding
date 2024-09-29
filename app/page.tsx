@@ -1,42 +1,61 @@
 import { dancing } from '@/app/fonts';
 import { AgendaStep } from '@/src/components/AgendaStep';
-import { Footer } from '@/src/components/Footer';
-import { Header } from '@/src/components/Header';
 import { Hero } from '@/src/components/Hero';
 import { ImageWithShadow } from '@/src/components/ImageWithShadow';
+import { RSVPForm } from '@/src/components/RSVPForm';
 import { SectionBlocText } from '@/src/components/SectionBlocText';
 import { SectionOneColumn } from '@/src/components/SectionOneColumn';
 import { SectionTwoColumns } from '@/src/components/SectionTwoColumns';
-import Link from 'next/link';
 
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
       <div className=" items-center justify-items-center min-h-screen p-8 pb-20 sm:p-20 font-[family-name:var(--font-geist-sans)]">
         <main className="container m-auto flex flex-col gap-16 items-center sm:items-start space-y-20">
           <SectionOneColumn title="Présentation" id="presentation">
             <p className="text-center max-w-4xl text-slate-600">
-              lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut
-              labore et dolore magna aliqua lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-              eiusmod lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt
-              ut labore lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua et dolore magna aliqua tempor incididunt ut labore
-              et dolore magna aliqua
+              Bienvenue à notre mariage champêtre chic dans le Gard !
+              <br />
+              <i>Avec piscine et mini-golf, s’il vous plaît !</i>
+              <br />
+              <br />
+              Préparez-vous à un mariage où la nature sauvage du Gard rencontre l’élégance (et un soupçon de
+              folie !). Entre oliviers et vignes, nous avons trouvé l'endroit parfait pour un mariage glamour
+              sous le chant des cigales.
+              <br />
+              <br />
+              La journée commercera avec la célébration de notre mariage civil à la mairie de
+              Saint-Laurent-la-Vernède. Ambiance pittoresque garantie, avec son fort du 15ème siècle et sa
+              célèbre place des platanes où l’on s’y poserait bien pour une partie de pétanque !
+              <br />
+              <br />
+              Nous passerons ensuite à la cathédrale d’Uzès pour une cérémonie religieuse, transportés dans un
+              cadre historique époustouflant, sous les voûtes d’un des joyaux de la région.
+              <br />
+              <br />
+              Après cette belle cérémonie, direction notre lieu de réception, où la nature du Gard rencontre
+              le chic... et le fun ! Au programme : parties de mini-golf et farniente au bord de la piscine.
+              Que vous soyez en mode compétition amicale sur le green ou en train de savourer un cocktail au
+              bord de la piscine, la soirée promet d’être festive.
+              <br />
+              <br />
+              Nous vous attendons avec vos plus belles tenues, prêts à profiter d’une journée mêlant élégance
+              et moments de pure détente. Que vous soyez team "escarpins à la cathédrale" ou team "pieds nus
+              au mini-golf", nous sommes sûrs que vous trouverez votre bonheur lors de cette journée
+              inoubliable.
             </p>
           </SectionOneColumn>
-
-          {/* <SectionTwoColumns
+          <SectionTwoColumns
             left={
               <SectionBlocText
-                title="Agenda"
-                description="Pour rien au monde nous ne voudrions que tu rates le mariage. Ici tu pourras consulter l'adresse de la cérémonie et du banquet. Il n'y a pas d'excuses pour arriver en retard !"
-                link={{ href: '/agenda', label: 'Consulter le programme' }}
+                title="Notre histoire d'amour"
+                description="Tout à commencer dans un bar lors d'une soirée à la Faluche pour se concrétiser par une demande en mariage en haut des pistes de Tignes."
+                link={{ href: '/histoire', label: 'Notre histoire' }}
               />
             }
-            right={<ImageWithShadow src="/isolde-baptiste.jpg" alt="Agenda" width={800} height={600} />}
-          /> */}
+            right={<ImageWithShadow src="/us.jpeg" alt="Les mariés" width={800} height={600} />}
+          />
           <SectionTwoColumns
             left={<ImageWithShadow src="/hebergements.jpg" alt="Hébergements" width={800} height={600} />}
             right={
@@ -57,13 +76,14 @@ export default function Home() {
             }
             right={<ImageWithShadow src="/galerie.webp" alt="Photos" width={800} height={600} />}
           />
+
           <SectionOneColumn title="Agenda" id="agenda">
             <div className="max-w-4xl space-y-8">
               <h3 className="text-lg font-medium">31 mai 2025</h3>
               <AgendaStep
                 title="Mariage civil"
-                description="Voici le moment tant attendu ! Nous avons le plaisir de tous vous retrouver pour célébrer notre union. Si vous souhaitez participer à la chorale, faites le nous savoir !"
-                time="15h00 - 16h00"
+                description="Mairie de Saint-Laurent-la-Vernède"
+                time="15h30 - 16h00"
                 location="1 Pl. de la Mairie, 30330 Saint-Laurent-la-Vernède"
                 agendaLink="https://calendar.google.com/calendar/r/eventedit?text=Mariage+Mairie+Isolde+Baptiste&dates=20250531T150000/20250531T160000&details=Pour se garer, le plus simple reste de se mettre à la place des platanes&location=1+Pl.+de+la+Mairie,+30330+Saint-Laurent-la-Vernède"
               />
@@ -83,28 +103,28 @@ export default function Home() {
               />
             </div>
           </SectionOneColumn>
-          <div className="w-full bg-nude p-20 text-center">
+          <div className="w-full bg-nude p-5 md:p-20 text-center">
             <div className="max-w-screen-md m-auto">
               <h2 className={`text-4xl sm:text-7xl mb-8 font-light text-slate-800 ${dancing.className}`}>
                 Nous avons hâte
                 <br />
                 de vous voir !
               </h2>
-              <p className="text-2xl text-slate-600">
+              <p className="text-lg sm:text-2xl text-slate-600">
                 Notre célébration ne serait pas la même sans vous à nos côtés. Veuillez nous faire savoir si
-                vous prévoyez de participer en suivant le lien ci-dessous.
+                vous prévoyez de participer en répondant au questionnaire ci-dessous.
               </p>
               <p className="text-sm mt-4 italic text-slate-600">
                 Veuillez confirmer votre présence avant le 31 janvier 2025.
               </p>
-              <Link className="bg-white text-slate-600 px-4 py-2 rounded-xl w-max mt-4" href="/rsvp">
-                Confirmer ma présence
-              </Link>
+
+              <div className="text-left my-8">
+                <RSVPForm />
+              </div>
             </div>
           </div>
         </main>
       </div>
-      <Footer />
     </>
   );
 }
