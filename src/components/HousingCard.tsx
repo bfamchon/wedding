@@ -19,11 +19,11 @@ export const HousingCard = ({ accommodation }: { accommodation: Accommodation })
 
       <div className=" leading-normal p-4 sm:p-8 space-y-4">
         <h3 className={`text-xl italic tracking-wider  ${lora.className}`}>{accommodation.name}</h3>
-        <p className="text-gray-500 ">
+        {/* <p className="text-gray-500 ">
           Description of your post/article, Description of your post/article,Description of your post/article,
           Description of your post/article,Description of your post/article, Description of your post/article,
-        </p>
-        <p className="flex flex-wrap justify-evenly gap-2 text-gray-500 text-sm">
+        </p> */}
+        <p className="flex flex-wrap justify-evenly gap-2 text-gray-500 ">
           <span className="flex items-center space-x-1">
             <PiMapPin className="" />
             <Link
