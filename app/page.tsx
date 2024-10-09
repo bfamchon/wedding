@@ -15,35 +15,27 @@ export default function Home() {
         <main className="container m-auto flex flex-col gap-16 items-center sm:items-start space-y-20">
           <SectionOneColumn title="Présentation" id="presentation">
             <p className="text-center max-w-4xl text-slate-600">
-              Bienvenue à notre mariage champêtre chic dans le Gard !
-              <br />
-              <i>Avec piscine et mini-golf, s’il vous plaît !</i>
+              Nous avons le plaisir de vous accueillir à notre mariage !
               <br />
               <br />
-              Préparez-vous à un mariage où la nature sauvage du Gard rencontre l’élégance (et un soupçon de
-              folie !). Entre oliviers et vignes, nous avons trouvé l'endroit parfait pour un mariage glamour
-              sous le chant des cigales.
+              Entre oliviers et vignes, le Gard sera l'endroit parfait pour célébrer notre union et profiter
+              de la journée tous ensemble, comme il se doit.
               <br />
               <br />
-              La journée commercera avec la célébration de notre mariage civil à la mairie de
-              Saint-Laurent-la-Vernède. Ambiance pittoresque garantie, avec son fort du 15ème siècle et sa
-              célèbre place des platanes où l’on s’y poserait bien pour une partie de pétanque !
+              Cette journée commercera à la mairie de Saint-Laurent-la-Vernède, un village pittoresque avec
+              son fort du XVe siècle, situé à 12 km d'Uzès.
               <br />
               <br />
-              Nous passerons ensuite à la cathédrale d’Uzès pour une cérémonie religieuse, transportés dans un
-              cadre historique époustouflant, sous les voûtes d’un des joyaux de la région.
+              Nous passerons ensuite à la cathédrale d’Uzès pour une cérémonie religieuse. Commencée au XIe
+              siècle et plusieurs fois détruite, cette cathédrale chargée d'histoire est un joyau de la
+              région.
               <br />
               <br />
-              Après cette belle cérémonie, direction notre lieu de réception, où la nature du Gard rencontre
-              le chic... et le fun ! Au programme : parties de mini-golf et farniente au bord de la piscine.
-              Que vous soyez en mode compétition amicale sur le green ou en train de savourer un cocktail au
-              bord de la piscine, la soirée promet d’être festive.
+              Après ces passages historiques, direction l'Auberge Gardoise pour la réception ! La soirée
+              promet d’être festive.
               <br />
               <br />
-              Nous vous attendons avec vos plus belles tenues, prêts à profiter d’une journée mêlant élégance
-              et moments de pure détente. Que vous soyez team "escarpins à la cathédrale" ou team "pieds nus
-              au mini-golf", nous sommes sûrs que vous trouverez votre bonheur lors de cette journée
-              inoubliable.
+              Nous avons hâte de vous retrouver pour construire ensemble ces moments inoubliables.
             </p>
           </SectionOneColumn>
           <SectionTwoColumns
